@@ -1,0 +1,38 @@
+Guidelines for Arch post installation
+
+
+log in as root
+
+useradd -m your-user-name
+
+passwd your-user-name
+
+nano /etc/sudoers
+
+copy line where root has ALL ALL
+
+paste it and change the word root to your user name and save the file
+
+logout and login with your new user name
+
+mkdir .config
+
+Get config files below
+
+git clone https://gitlab.com/SoulDinky/meomeno.git
+
+cd into the meomeno folder and then into the arch folder
+
+run autoapp install script by typing:  ./autoapp.sh
+
+run config script by typing:  ./runconfigs.sh
+
+reboot
+
+
+
+
+
+
+
+
