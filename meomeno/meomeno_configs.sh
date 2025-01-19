@@ -8,8 +8,6 @@ cp ARTWORK-nighthawk.jpg ~/ &
 
 sudo cp lightdm.conf lightdm-gtk-greeter.conf /etc/lightdm/ &
 
-sudo cp .zshrc .zhistory /root &
-
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark &
 
 sudo systemctl enable lightdm &
