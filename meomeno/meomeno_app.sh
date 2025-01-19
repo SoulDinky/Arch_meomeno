@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 sudo pacman -S \ 
-    thunderbird \
+        thunderbird \
 	kicad \
-    blender \
+        blender \
 	gnumeric \
-    featherpad \
+        featherpad \
 	alsa-plugins \
 	alsa-utils \
 	breeze \
@@ -13,8 +13,7 @@ sudo pacman -S \
 	clipgrab \
 	ffmpeg \
 	firefox \
-	firefox-ublock-origin \
-    gnome-calculator \
+        gnome-calculator \
 	gnome-disk-utility \
 	gnome-screenshot \
 	gufw \
@@ -24,13 +23,10 @@ sudo pacman -S \
 	lightdm-gtk-greeter-settings \
 	man-db \
 	man-pages \
-    network-manager-applet \
-    neofetch \
+        network-manager-applet \
 	papirus-icon-theme \
 	pavucontrol \
 	pcmanfm \
-	pulseaudio \
-	pulseaudio-alsa \
 	terminus-font \
 	volumeicon \
 	xed \
@@ -40,5 +36,3 @@ sudo pacman -S \
 	xorg-xrandr \
 	xterm \
 	xvidcore \
-	zsh \
-	zsh-syntax-highlighting
